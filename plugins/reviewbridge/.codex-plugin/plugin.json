@@ -1,0 +1,21 @@
+{
+  "name": "reviewbridge",
+  "version": "0.1.0",
+  "description": "A directly callable Codex plugin that delegates read-only review prompts to Claude Code.",
+  "author": {
+    "name": "chengcheng93"
+  },
+  "repository": "https://github.com/chengcheng93/reviewbridge-codex-plugin",
+  "license": "Apache-2.0",
+  "keywords": ["codex", "claude-code", "review", "cross-model"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Reviewbridge",
+    "shortDescription": "Run a Claude Code review from Codex.",
+    "longDescription": "ReviewBridge provides a direct Claude Code launcher and a read-only cross-model review skill for Codex.",
+    "developerName": "chengcheng93",
+    "category": "Coding",
+    "capabilities": [],
+    "defaultPrompt": "Review the current changes with Claude Code."
+  }
+}
